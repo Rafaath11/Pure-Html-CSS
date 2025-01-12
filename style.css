@@ -1,4 +1,4 @@
-/* color1 : #22264B; color2: #D7C6AD */
+/* color1 : #22264B; color2: #D7C6AD; color3: #f6f6f6; color4: #A35C7A; color5: #C890A7 */
 
 /* Universal Selector */
 * {
@@ -286,7 +286,7 @@ button a {
 /* ###### Images and background styling ###### */
 .hero {
     height:50vh;
-    background-image: url("./images/1.jpg");
+    background-image: url("images/1.jpg");
     background-size: cover;
     background-position: center;
     background-color: rgba(0, 0, 0, 0.7);
@@ -337,7 +337,7 @@ button a {
 }
 
 .video__container {
-    background-image: url(./images/heaven.png);
+    background-image: url(images/heaven.png);
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
@@ -365,7 +365,7 @@ button a {
 }
 .programs__card-description {
     color: white;
-    font-size: 300;
+    font-size: 15px;
     margin-bottom: 15px;
 }
 .programs__button {
@@ -398,7 +398,7 @@ section .wave {
     left: 0;
     width: 100%;
     height: 100px;
-    background: url(./images/wave.png);
+    background: url(images/wave.png);
     background-size: 1000px 100px;
 }
 section .wave.wave1 {
